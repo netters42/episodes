@@ -1,0 +1,136 @@
+body {
+  color: #222;
+  font-size: 16px;
+  font-family: monospace;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: 'Trebuchet MS', 'Tahoma', 'Arial', 'Helvetica';
+  font-size: 2em;
+  margin: 10px;
+  text-align: right;
+}
+fieldset {
+  border: 1px solid #aaa;
+  background-color: #fff;
+  max-width: 720px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+legend {
+  background-color: #fff;
+  border: 1px solid #aaa;
+  padding: 0.25em 1.5em 0.25em 1.5em;
+  color: #222;
+}
+fieldset p {
+  margin-left: 1em;
+}
+a, a:visited {
+  color: #000;
+  text-decoration: underline;
+}
+a:hover, a:visited:hover, a:active {
+  color: #444;
+  text-decoration: underline;
+}
+ul {
+  list-style-type: circle;
+  color: #333;
+}
+li p {
+  color: #222;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+ul.speaking li {
+  list-style: none;
+  margin-right: 10px;
+}
+ul.speaking li:nth-child(even)  {
+  background-color: rgb(248, 247, 255);
+}
+ul.speaking li:nth-child(odd) {
+  background-color: #fff;
+}
+ul.speaking li p span.p {
+  margin-left: 10px;
+}
+ul.speaking li p span.v {
+  float: right;
+  margin-right: 10px;
+  color: #222;
+}
+ul.writing li {
+  list-style: none;
+  margin-right: 10px;
+}
+ul.writing li:nth-child(even)  {
+  background-color: rgb(248, 247, 255);
+}
+ul.writing li:nth-child(odd) {
+  background-color: #fff;
+}
+ul.writing li p span.p {
+  margin-left: 10px;
+}
+ul.writing li p span.v {
+  float: right;
+  margin-right: 10px;
+  color: #222;
+}
+ul.contact li p span.v {
+  float: right;
+  margin-right: 10px;
+  color: #222;
+}
+.at {
+  color: #333;
+}
+.footer {
+  font-size: 0.8em;
+  color: #666;
+  text-align: center;
+}
+.text {
+  list-style: none;
+  padding-bottom: 25px;
+}
+pre {
+  white-space: pre-wrap;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color:black;
+    color:#bbb;
+  }
+  .at {
+    color:#ddd;
+  }
+  legend {
+    background-color:black;
+    color:#ddd;
+  }
+  fieldset {
+    background-color:#000;
+  }
+  li {
+    color:#ccc;
+  }
+  li p {
+    color:#ccc;
+  }
+  a, a:visited {
+    color: #ccc;
+    text-decoration: underline;
+  }
+  a:hover, a:visited:hover, a:active {
+    color: #ddd;
+    text-decoration: underline;
+  }
+}
+
