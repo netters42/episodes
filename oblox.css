@@ -29,6 +29,7 @@ legend {
 }
 fieldset p {
   margin-left: 1em;
+  word-wrap: anywhere;
 }
 a, a:visited {
   color: #000;
@@ -102,6 +103,9 @@ ul.contact li p span.v {
 }
 pre {
   white-space: pre-wrap;
+}
+video {
+  max-width: 100%;
 }
 @media (prefers-color-scheme: dark) {
   body {

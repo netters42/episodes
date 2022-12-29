@@ -12,7 +12,7 @@ _video="$(grep -E '^VIDEO:' ${episode} | sed 's/^VIDEO: //')"
 
 _date="$(grep -E '^DATE:' ${episode} | sed 's/^DATE: //')"
 
-_notes="$(sed -n '/NOTES:/,$ p' ${episode})"
+_notes="$(sed -n '/NOTES:/,$ p' ${episode} | sed -e '/^$/d' -e 's/^/<p>/' -e 's/$/<\/p>\n/')"
 
 cat <<EOF > public/${_type}-${_num}.html
 <?xml version="1.0"?>
@@ -48,13 +48,11 @@ cat <<EOF > public/${_type}-${_num}.html
     </fieldset>
     <fieldset>
       <legend>տեսանիւթ</legend>
-      <video src="${_video}" width=700 controls></video>
+      <video src="${_video}" controls></video>
     </fieldset>
     <fieldset>
       <legend>նշումներ</legend>
-      <pre>
 ${_notes}
-      </pre>
     </fieldset>
     <p class="footer">CC BY 4.0 | Բոլոր իրաւունքները գաղտնալսուած են…</p>
     <div>
