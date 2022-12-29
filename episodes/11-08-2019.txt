@@ -1,0 +1,44 @@
+TYPE: ցանցառներ ռադիօ
+NUM: 3
+TITLE: S00E03: Սալիկներ, Գեբ եւ Մաստոդոն
+VIDEO: https://xn--y9afcz6b.xn--y9aam0eb9a4abc.xn--y9a3aq/np-n003-S00E03.mp4
+DATE: 11-08-2019
+GUID: 553504D9-81FE-4EF6-9AE0-365BE7C4C3DA
+
+NOTES:
+ACHTUNG DISCLAIMER
+էպիզոդը լի ա անտեղի եւ անհիմն սպեկուլեացիաներով։
+բոլոր տեղանքներն ու կերպարները յօրինուած են։
+էպիզոդի ընթացքում ոչ մի կենդանի չի վնասուել։
+
+DON'T TRY THIS AT HOME.
+try it outside.
+
+00:00:00 Բարեւ, համացանց
+00:02:07 արթին֊վարուժան ընկերութեան սարքած նայիրի֊1 տպասալը, արդուինօ ա։
+00:07:39 https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-Open-GPU-Docs
+նուիդիան հանրայնացնում ա չիպերի տուեալները, որ ազատ դրայւերներ գրեն։
+առաջ էնքան վատ էին իրենց պահում որ՝ https://www.youtube.com/watch?v=IVpOyKCNZYw
+00:12:20 ֆորչան եւ «նա մեզ չի բաժանի» դրօշի պատմութիւն
+https://www.youtube.com/watch?v=vw9zyxm860Q
+http://hewillnotdivide.us/
+https://knowyourmeme.com/memes/he-will-not-divide-us
+00:16:00 https://en.m.wikipedia.org/wiki/Pepe_the_Frog
+00:16:30 GAB
+https://www.theverge.com/2019/7/12/20691957/mastodon-decentralized-social-network-gab-migration-fediverse-app-blocking
+https://en.wikipedia.org/wiki/Gab_(social_network)
+00:18:20 Joe Rogan Experience #1258 - Jack Dorsey, Vijaya Gadde & Tim Pool https://www.youtube.com/watch?v=DZCBRHOg3PQ
+00:20:00 https://knowyourmeme.com/memes/learn-to-code
+00:21:20 Tim Pool Tells Twitter Exec They Have a Liberal Bias | JRE Twitter Special https://www.youtube.com/watch?v=EbTXqrS9l5E
+00:23:50 ձախերը հետեւում են միայն ձախերին, աջերը՝ բոլորին
+00:24:15 քաղաքական կողմնացոյց։ իմը սէնց էր՝ https://spyurk.am/posts/3286508
+00:27:00 ինչ է մաստոդոնը
+00:27:55 https://www.change.org/p/google-inc-and-apple-free-the-platforms
+00:28:20 ինչի՞ ա գաբը դարձել մաստոդոն հանգոյց
+00:31:31 Amaroq developer John Gabelmann banned Gab to avoid potential problems with the App Store. “My core objective is to keep Amaroq publicly available and to abide by all Apple policies, which keep unmoderated extremist/hateful content off the store,” he tells The Verge. “If your network is large enough and unmoderated enough to get the negative attention of Apple, Amaroq will follow Apple’s policies.”
+https://www.theverge.com/2019/7/12/20691957/mastodon-decentralized-social-network-gab-migration-fediverse-app-blocking
+
+00:48:05 kde desktop file injection https://twitter.com/zer0pwn/status/1158433002239746048
+
+
+01:09:00 մինուայլ շեքսպիրից՝ https://www.youtube.com/watch?v=ljlCTRGqdO4

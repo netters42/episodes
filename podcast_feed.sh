@@ -52,15 +52,15 @@ do
   _duration="$(ffprobe ${_video} -show_entries format=duration -of default=nokey=1:noprint_wrappers=1 2>/dev/null | cut -d . -f 1)"
 
   _guid="$(grep -E '^GUID:' ${episode} | sed 's/^GUID: //')"
-  _notes="$(sed -n '/NOTES:/,$ p' ${episode} | xmlstarlet esc)"
+  _notes="$(sed -n '/NOTES:/,$ p' ${episode} | sed -e '/^$/d' -e 's/^/<p>/' -e 's/$/<\/p>\n/')"
 
   cat <<EOF
         <item>
             <title>${_type_raw} #${_num} – ${_title}</title>
-            <link>https://xn--y9agv9d4b.xn--y9aam0eb9a4abc.xn--y9a3aq/%D5%A4%D6%80%D5%B8%D6%82%D5%A1%D5%A3/${_type_URIencoded}-${_num}.html</link>
-            <description>
+            <link>https://xn--y9agv9d4b.xn--y9aam0eb9a4abc.xn--y9a3aq/%D5%A9%D5%B8%D5%B2%D5%A1%D6%80%D5%AF%D5%B8%D6%82%D5%B4/${_type_URIencoded}-${_num}.html</link>
+            <description><![CDATA[
 ${_notes}
-</description>
+]]></description>
             <pubDate>${_date_2822}</pubDate>
             <enclosure url="${_video}" length="${_length}" type="video/mp4"/>
             <guid isPermaLink="false">${_guid}</guid>
