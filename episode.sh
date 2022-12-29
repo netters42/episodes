@@ -35,7 +35,7 @@ cat <<EOF > public/${_type}-${_num}.html
       <legend>↩</legend>
       <ul>
         <li style="padding-bottom: 5px;">
-          <a href="https://&#x57C;&#x561;&#x564;&#x56B;&#x585;.&#x581;&#x561;&#x576;&#x581;&#x561;&#x57C;&#x576;&#x565;&#x580;.&#x570;&#x561;&#x575;/&#x564;&#x580;&#x578;&#x582;&#x561;&#x563;/">վերադառնալ գլխաւոր էջ</a>
+          <a href="https://xn--y9agv9d4b.xn--y9aam0eb9a4abc.xn--y9a3aq/թողարկում/">վերադառնալ գլխաւոր էջ</a>
         </li>
       </ul>
     </fieldset>
@@ -53,7 +53,7 @@ cat <<EOF > public/${_type}-${_num}.html
     <fieldset>
       <legend>նշումներ</legend>
       <pre>
-      ${_notes}
+${_notes}
       </pre>
     </fieldset>
     <p class="footer">CC BY 4.0 | Բոլոր իրաւունքները գաղտնալսուած են…</p>

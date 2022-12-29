@@ -1,7 +1,7 @@
 TYPE: ցանցառներ ռադիօ
 NUM: 1
 TITLE: S00E01: ՎիՍիԷսներ եւ Ինիթներ
-VIDEO: https://xn--y9afcz6b.xn--y9aam0eb9a4abc.xn--y9a3aq/n001-S00E01.mp4
+VIDEO: https://xn--y9afcz6b.xn--y9aam0eb9a4abc.xn--y9a3aq/np-n001-S00E01.mp4
 DATE: 28-07-2019
 GUID: 805243F4-DD2A-4018-99A7-456CAFE8D894
 
