@@ -17,7 +17,7 @@ cat <<EOF
         <pubDate>${_last_build_date}</pubDate>
         <lastBuildDate>${_last_build_date}</lastBuildDate>
         <image>
-            <url>https://xn--y9agv9d4b.xn--y9aam0eb9a4abc.xn--y9a3aq/netters_144.png</url>
+            <url>https://xn--y9agv9d4b.xn--y9aam0eb9a4abc.xn--y9a3aq/netters.png</url>
             <title>ցանցառներ ռադիօ</title>
             <link>https://xn--y9agv9d4b.xn--y9aam0eb9a4abc.xn--y9a3aq/</link>
         </image>
