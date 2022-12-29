@@ -1,15 +1,20 @@
 #!/bin/sh
 
-_info="${1}"
+episode="${1}"
 
-_type="$(grep -E '^TYPE:' ${_info} | sed 's/^TYPE: //' | tr ' ' '_')"
-_num="$(grep -E '^NUM:' ${_info} | sed 's/^NUM: //')"
-_title="$(grep -E '^TITLE:' ${_info} | sed 's/^TITLE: //')"
-_video="$(grep -E '^VIDEO:' ${_info} | sed 's/^VIDEO: //')"
-_date="$(grep -E '^DATE:' ${_info} | sed 's/^DATE: //')"
-_notes="$(sed -n '/NOTES:/,$ p' ${_info})"
+_type="$(grep -E '^TYPE:' ${episode} | sed 's/^TYPE: //' | tr ' ' '_')"
+_type_raw="$(grep -E '^TYPE:' ${episode} | sed 's/^TYPE: //')"
 
-cat <<EOF > ${_type}-${_num}.html
+_num="$(grep -E '^NUM:' ${episode} | sed 's/^NUM: //')"
+_title="$(grep -E '^TITLE:' ${episode} | sed 's/^TITLE: //')"
+
+_video="$(grep -E '^VIDEO:' ${episode} | sed 's/^VIDEO: //')"
+
+_date="$(grep -E '^DATE:' ${episode} | sed 's/^DATE: //')"
+
+_notes="$(sed -n '/NOTES:/,$ p' ${episode})"
+
+cat <<EOF > public/${_type}-${_num}.html
 <?xml version="1.0"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
   <head>
@@ -23,7 +28,7 @@ cat <<EOF > ${_type}-${_num}.html
   </head>
   <body>
     <h1>
-      <span class="at">#${_num}</span>
+      <span class="at">${_type_raw} #${_num}</span>
     </h1>
     <img src="/logo.png" width="96" style="margin: auto; display: block;" />
     <fieldset>
