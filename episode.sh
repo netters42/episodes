@@ -47,10 +47,10 @@ cat <<EOF > public/${_type}-${_num}.html
       </ul>
     </fieldset>
     <fieldset>
-      <legend>տեսանիւթ</legend>
+      <legend id="video">տեսանիւթ</legend>
       <video src="${_video}" controls></video>
     </fieldset>
-    <fieldset>
+    <fieldset id="notes">
       <legend>նշումներ</legend>
 ${_notes}
     </fieldset>
@@ -60,6 +60,25 @@ ${_notes}
         <a href="https://oblox.bsd.am/">Made with oblox</a>
       </p>
     </div>
+    <script>
+      function setVideoTime(p) {
+         [h, m, s] = p.split(':')
+         ts = (h * 3600) + (m * 60) + (s * 1)
+         video = document.getElementsByTagName('video')[0]
+         video.currentTime = ts
+      }
+
+      function checkTs(p) {
+        if (p.innerHTML.search(/^[0-9][0-9]:[0-9][0-9]:[0-9][0-9] /) === 0) {
+          p.innerHTML = p.innerHTML.replace(/^[0-9][0-9]:[0-9][0-9]:[0-9][0-9]/, '<a href="#video" onclick="setVideoTime(this.innerHTML)">$&</a>')
+        }
+      }
+
+      notes = document.getElementById('notes')
+      notes.childNodes.forEach(element =>
+        element.nodeName === "P" ? checkTs(element) : null
+      )
+    </script>
   </body>
 </html>
 EOF
