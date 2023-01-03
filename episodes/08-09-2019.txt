@@ -1,0 +1,8 @@
+TYPE: ցանցառներ ռադիօ
+NUM: 6
+TITLE: S00E06: չաթ համակարգեր, սէյլֆիշ, փայնֆոն եւ հեռախօսների ՕՀներ
+VIDEO: https://xn--y9afcz6b.xn--y9aam0eb9a4abc.xn--y9a3aq/np-n006-S00E06.mp4
+DATE: 08-09-2019
+GUID: 641BAA34-3AC0-45BB-91C2-9EE5A6536C67
+
+NOTES:

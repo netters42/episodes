@@ -1,0 +1,8 @@
+TYPE: ցանցառներ ռադիօ
+NUM: 8
+TITLE: S00E08: ԱռԷմԷս, ՋիՍիՍի, Յունիթի, Պատենտներ
+VIDEO: https://xn--y9afcz6b.xn--y9aam0eb9a4abc.xn--y9a3aq/np-n008-S00E08.mp4
+DATE: 29-09-2019
+GUID: A68FE3DE-F5A8-4685-AA59-3F6DCF9CB807
+
+NOTES:
