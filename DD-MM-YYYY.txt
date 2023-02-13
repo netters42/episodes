@@ -1,0 +1,13 @@
+TYPE: <content type> # e.g ցանցառներ ռադիօ>
+NUM: <episode number> # e.g 8
+TITLE: <S__E__: keywords> # e.g.  S00E08: ԱռԷմԷս, ՋիՍիՍի, Յունիթի, Պատենտներ
+VIDEO: <the URL from our media server> # e.g. https://xn--y9afcz6b.xn--y9aam0eb9a4abc.xn--y9a3aq/np-n008-S00E08.mp4
+DATE: <DD-MM-YYYY> # e.g. 29-09-2019
+GUID: <a GUID, obviously> # e.g. A68FE3DE-F5A8-4685-AA59-3F6DCF9CB807
+
+NOTES: <
+the list of notes, one per line. If a timecode is present, it should be in the format hh:mm:ss and
+will make the note appear in the player at the specified timecode.
+>
+
+# e.g. 00:00:00 Բարեւ Համացանց
