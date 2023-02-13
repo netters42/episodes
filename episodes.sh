@@ -34,7 +34,7 @@ do
   _num="$(grep -E '^NUM:' ${episode} | sed 's/^NUM: //')"
   _title="$(grep -E '^TITLE:' ${episode} | sed 's/^TITLE: //')"
   cat <<EOF
-<outline text="${_type} #${_num} – ${_title}" type="link" url="https://ռադիօ.ցանցառներ.հայ/թողարկում/${_type}-${_num}.html"/>"
+<outline text="${_type} #${_num} - ${_title}" type="link" url="https://ռադիօ.ցանցառներ.հայ/թողարկում/${_type}-${_num}.html"/>"
 EOF
 done
 
