@@ -7,7 +7,10 @@ GUID: D4C3DFDB-7B68-4840-ABE8-3B83E0BBC422
 
 NOTES:
 
-"What UNIX Cost Us" - Benno Rice (LCA 2020): https://www.youtube.com/watch?v=9-IWMbJXoLM
+<a href="https://www.youtube.com/watch?v=9-IWMbJXoLM">
+"What UNIX Cost Us" - Benno Rice (LCA 2020)
+</a>
+
 
 00:00:00 ողջոյն
 00:01:10 Openverse
