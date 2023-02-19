@@ -12,7 +12,7 @@ cat <<EOF
 		<additionalHead>&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; title=&quot;Podcast RSS feed&quot; href=&quot;/թողարկում/հոսք.xml&quot; /&gt;</additionalHead>
 		<license>CC BY 4.0</license>
 		<copyleft>Բոլոր իրաւունքները գաղտնալսուած են…</copyleft>
-		<logo>/logo.png</logo>
+		<logo>/netters.png</logo>
 		<ownerName>Antranig Vartanian</ownerName>
 		<ownerId>http://twitter.com/undefined</ownerId>
 		<urlUpdateSocket>ws://drummer.scripting.com:1232/</urlUpdateSocket>

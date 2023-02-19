@@ -30,12 +30,12 @@ cat <<EOF > public/${_type}-${_num}.html
     <h1>
       <span class="at">${_type_raw} #${_num}</span>
     </h1>
-    <img src="/logo.png" width="96" style="margin: auto; display: block;" />
+    <img src="/netters.png" width="96" style="margin: auto; display: block;" />
     <fieldset>
       <legend>↩</legend>
       <ul>
         <li style="padding-bottom: 5px;">
-          <a href="https://xn--y9agv9d4b.xn--y9aam0eb9a4abc.xn--y9a3aq/թողարկում/">վերադառնալ գլխաւոր էջ</a>
+          <a href="../">վերադառնալ գլխաւոր էջ</a>
         </li>
       </ul>
     </fieldset>

@@ -1,0 +1,62 @@
+TYPE: ցանցառներ ռադիօ
+NUM: 35
+TITLE: S04E00: Helix, SteamDeck, SXMO, OPML/XSLT, սարեան
+VIDEO: https://xn--y9afcz6b.xn--y9aam0eb9a4abc.xn--y9a3aq/np-n035-S04E00.mp4
+DATE: 05-02-2023
+GUID: 0918208F-046A-4AB8-8084-1103636E8C93
+
+NOTES:
+
+00:02:00 Language Server Protocol
+
+00:10:00 Helix Editor
+
+00:28:25 Shell֊եր
+
+antranigv@zvartnots:~ $ cat ~/.inputrc 
+## arrow up
+"\e[A":history-search-backward
+## arrow down
+"\e[B":history-search-forward
+
+00:34:43 Fish Shell
+
+00:47:27 Linux եւ Unix համակարգերը մատնահետքով
+
+00:52:52 Manjaro եւ Arch Linux
+
+00:57:57 Steam Deck
+
+01:07:30 Խաղերը Linux֊ում Steam֊ի եւ Proton֊ի միջոցով
+
+01:12:20 PinePhone, SXMO եւ Հայերէն
+
+01:16:16 Multi-Tasking֊ը Unix֊ում եւ մարտկոցներ
+
+01:19:00 Framework laptop
+
+01:24:53 FreeBSD֊ի bc֊ն գրաւում է աշխարհը
+
+01:29:00 Framework ե՞ս ուզում։ Shekspir֊ի խորհուրդները
+
+01:30:38 ցանցառների նոր կայքը by antranigv
+
+01:42:00 RSS հոսքեր գեներացնելու մասին
+
+01:45:45 YouTube֊ի նման timestamp֊եր մեր կայքում
+
+01:50:00 Podcast հոսքի ստանդարտը, curl եւ ffmpeg/ffprobe
+
+01:55:00 Framework֊ի հաւէս բաներ
+
+01:56:00 խաղում ենք Witcher 
+
+02:00:00 Մեդիա Սպասարկիչ
+
+02:05:00 հետ ենք գնում լաւ ժամանակներ, Mastodon, բլօգներ
+
+02:09:00 խառը էլի (։
+
+02:12:50 ownCloud / Nextcloud
+
+02:15:26 <a href="https://սարեան.ցանցառներ.հայ/">սարեան.ցանցառներ.հայ</a>
