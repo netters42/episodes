@@ -12,7 +12,7 @@ cat <<EOF
 		<additionalHead>&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; title=&quot;Podcast RSS feed&quot; href=&quot;/թողարկում/հոսք.xml&quot; /&gt;</additionalHead>
 		<license>CC BY 4.0</license>
 		<copyleft>Բոլոր իրաւունքները գաղտնալսուած են…</copyleft>
-		<logo>/logo.png</logo>
+		<logo>/netters.png</logo>
 		<ownerName>Antranig Vartanian</ownerName>
 		<ownerId>http://twitter.com/undefined</ownerId>
 		<urlUpdateSocket>ws://drummer.scripting.com:1232/</urlUpdateSocket>
@@ -34,7 +34,7 @@ do
   _num="$(grep -E '^NUM:' ${episode} | sed 's/^NUM: //')"
   _title="$(grep -E '^TITLE:' ${episode} | sed 's/^TITLE: //')"
   cat <<EOF
-<outline text="${_type} #${_num} – ${_title}" type="link" url="https://ռադիօ.ցանցառներ.հայ/թողարկում/${_type}-${_num}.html"/>"
+<outline text="${_type} #${_num} – ${_title}" type="link" url="${_type}-${_num}.html"/>"
 EOF
 done
 
