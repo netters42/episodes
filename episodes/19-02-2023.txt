@@ -1,0 +1,31 @@
+TYPE: ցանցառներ ռադիօ
+NUM: 37
+TITLE: S04E02: Openverse, CPUs and GPUs, home servers
+VIDEO: https://xn--y9afcz6b.xn--y9aam0eb9a4abc.xn--y9a3aq/np-n037-S04E02.mp4
+DATE: 19-02-2023
+GUID: D4C3DFDB-7B68-4840-ABE8-3B83E0BBC422
+
+NOTES:
+
+<a href="https://www.youtube.com/watch?v=9-IWMbJXoLM">
+"What UNIX Cost Us" - Benno Rice (LCA 2020)
+</a>
+
+
+00:00:00 ողջոյն
+00:01:10 Openverse
+00:05:55 shameless plug
+00:06:30 թանաքեանի Jetson Nano֊ն
+00:11:00 GCMS 332 Microphone տուփազերծում
+00:15:15 թանաքեանի Jetson Nano֊ն, մաս 2
+00:20:25 VOC on Jetson Nano, nvcc
+00:26:50 Nvidia C Compiler
+00:31:03 CUDA
+00:38:20 Մտքեր CPU֊ի և GPU֊ի մասին
+00:44:15 Անջատած CPU֊ների մասին
+00:52:32 Առողջություն
+00:57:20 Visual 6502
+01:07:25 լուրեր սարեանից։ https://սարեան.ցանցառներ.հայ
+01:07:40 RSS֊ի մասին այստեղ, այնտեղ և այլուր
+01:18:50 Մտքեր սերվերի մասին, ejabberd, bsdports, funtoo
+01:35:50 հին հեռախոսները որպես սերվերներ, postmarketOS
