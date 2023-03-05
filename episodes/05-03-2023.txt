@@ -1,0 +1,28 @@
+TYPE: ցանցառներ ռադիօ
+NUM: 40
+TITLE: S04E04:
+VIDEO: https://xn--y9afcz6b.xn--y9aam0eb9a4abc.xn--y9a3aq/<fixme>
+DATE: 05-03-2023
+GUID: ba44953c-3a0e-4329-aeda-d9a473dd8a30
+
+NOTES:
+
+00:02:22 ediors, vim, neovim
+
+00:09:00 lua in FreeBSD
+
+00:15:22 opensource tools in enterprise
+
+00:43:15 LSP, git, abstractions in general
+
+01:08:40 E-govt, AWS, civic initiatives
+
+01:25:00 post heaven
+
+01:39:06 mastodon /integrations, clients/
+
+01:44:37 offline music players
+
+01:52:26 hold and catch fire
+
+01:56:37 jailer demonstration
