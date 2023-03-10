@@ -1,9 +1,9 @@
 TYPE: ցանցառներ ռադիօ
-NUM: 40
-TITLE: S04E04:
-VIDEO: https://xn--y9afcz6b.xn--y9aam0eb9a4abc.xn--y9a3aq/<fixme>
+NUM: 39
+TITLE: S04E04: editors, FOSS in enterprise, abstractions, blogging, good software and Jailer
+VIDEO: https://xn--y9afcz6b.xn--y9aam0eb9a4abc.xn--y9a3aq/np-n039-S04E04.mp4
 DATE: 05-03-2023
-GUID: ba44953c-3a0e-4329-aeda-d9a473dd8a30
+GUID: BA44953C-3A0E-4329-AEDA-D9A473DD8A30
 
 NOTES:
 
@@ -26,3 +26,4 @@ NOTES:
 01:52:26 hold and catch fire
 
 01:56:37 jailer demonstration
+
