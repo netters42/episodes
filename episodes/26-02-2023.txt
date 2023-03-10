@@ -1,7 +1,7 @@
 TYPE: ցանցառներ ռադիօ
 NUM: 38
 TITLE: S04E03: անվտանգութիւն, հայելիներ, իննովացիաներ եւ պատմութիւններ
-VIDEO: https://xn--y9afcz6b.xn--y9aam0eb9a4abc.xn--y9a3aq/np-n037-S04E03.mp4
+VIDEO: https://xn--y9afcz6b.xn--y9aam0eb9a4abc.xn--y9a3aq/np-n038-S04E03.mp4
 DATE: 26-02-2023
 GUID: 3EFF9CBD-934E-4078-A57B-40AEBAF27878
 
